@@ -12,6 +12,8 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.processing.models.SimpleMessage;
 
+import org.apache.kafka.streams.processor.Processor;
+
 public class SimpleMessageSerdes
         implements Serializer<SimpleMessage>, Deserializer<SimpleMessage>, Serde<SimpleMessage> {
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
