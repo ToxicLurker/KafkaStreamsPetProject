@@ -1,0 +1,4 @@
+com/processing/models/SimpleMessage.class
+com/processing/models/ComplexType.class
+com/processing/serdes/SimpleMessageSerdes.class
+com/processing/Main.class
